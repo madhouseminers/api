@@ -16,3 +16,4 @@ spec:
       containers:
         - name: api
           image: ghcr.io/madhouseminers/api:main
+          imagePullPolicy: Always
