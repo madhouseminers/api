@@ -1,0 +1,104 @@
+POST https://api_k8s.madhouseminers.com
+Content-Type: application/json
+
+{"query":"query { login(email: \"a\", password: \"b\") { email password }}"}
+
+###
+
+POST https://api_k8s.madhouseminers.com
+Content-Type: application/json
+
+{"query":"query { login(email: \"a\", password: \"b\") { email password }}"}
+
+###
+
+POST http://172.21.214.183
+Content-Type: application/json
+
+{"query":"query { login(email: \"a\", password: \"b\") { email password }}"}
+
+<> 2021-08-12T090552.200.json
+
+###
+
+POST http://172.21.214.183
+Content-Type: application/json
+
+{"query":"query { login(email: \"a\", password: \"b\") { email password }}"}
+
+<> 2021-08-12T090412.200.json
+
+###
+
+POST http://172.21.214.183
+Content-Type: application/json
+
+{"query":"query { login(email: \"a\", password: \"b\") { email password }}"}
+
+<> 2021-08-12T090228.200.json
+
+###
+
+POST http://172.21.214.183
+Content-Type: application/json
+
+{"query":"query { login(email: \"a\", password: \"b\") { email }}"}
+
+<> 2021-08-12T090220.200.json
+
+###
+
+POST http://172.21.214.183
+Content-Type: application/json
+
+{"query":"query { login(email: 'a', password: 'b') { email }}"}
+
+<> 2021-08-12T090156.400.json
+
+###
+
+POST http://172.21.214.183
+Content-Type: application/json
+
+{"query":"query { login(email: a, password: b) { email }}"}
+
+<> 2021-08-12T090111.400.json
+
+###
+
+POST http://172.21.214.183
+Content-Type: application/json
+
+{"query":"query { login() { email }}"}
+
+<> 2021-08-12T090054.400.json
+
+###
+
+POST http://172.21.214.183
+Content-Type: application/json
+
+{"query":"login(email: 'a', password: 'b') { email }"}
+
+<> 2021-08-12T090023.400.json
+
+###
+
+POST http://172.21.214.183
+Content-Type: application/json
+
+{"query":"query { __typename }"}
+
+<> 2021-08-12T085956.200.json
+
+###
+
+POST http://172.21.214.183
+Content-Type: application/json
+
+{}
+
+<> 2021-08-12T085944.400.html
+
+###
+

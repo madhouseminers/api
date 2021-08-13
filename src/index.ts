@@ -4,7 +4,7 @@ import { ApolloGateway } from "@apollo/gateway";
 const gateway = new ApolloGateway({
   serviceList: [{ name: "login", url: "http://login:4000" }],
 });
-const server = new ApolloServer({ gateway });
+const server = new ApolloServer({ gateway, introspection: false });
 
 server
   .listen()
